@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- css -->
+    <link rel="stylesheet" href="./index.css">
+    <title>API Calling</title>
+</head>
+<body>
+    
+<div class="main">
+
+    <header>
+        <h1>DAILY TIPS</h1>
+        <p class="tips"></p>
+    </header>
+    <hr>
+
+    <div class="catDogGene">
+        <span>
+        <button class="generate">Generate Cat</button>
+        
+        <select name="category" id="selectCate">
+            <option>Cat</option>
+            <option>Dog</option>
+        </select>
+
+        <a id="download" target="_blank" href="./assets/defaultCat.jpg" download><span class="material-symbols-outlined">
+            download
+            </span></a>
+    </span>
+       
+        <div class="res">
+            <div class="container">
+                <div class="lds-spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                </div>
+            </div>
+            <img class="generated" src="./assets/defaultCat.jpg">
+            
+        </div>
+    </div>
+
+
+
+</div>
+
+</body>
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!-- custom js -->
+<script src="./js/index.js"></script> 
+</script>
+</html>
+
+<!-- https://colorhunt.co/palette/57c5b61598951a5f7a002b5b -->
